@@ -1,0 +1,21 @@
+{
+    "name": "carl-alberto/yii2-openweather-lib",
+    "description": "This is a useful library extracting information from the free tier openweather map",
+    "type": "library",
+    "keywords": ["yii2","extension","weather","openweather"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Carl Alberto",
+            "email": "cralberto11@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "carlalberto\\openweatherlib\\": ""
+        }
+    }
+}
